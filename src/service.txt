@@ -1,0 +1,4 @@
+Translator,"java -jar translator.jar"
+Tax,"java -jar tax.jar"
+Error,"java -jar errorMessage.jar"
+TB,"java -jar textBroker.jar"

@@ -1,0 +1,5 @@
+This is a dummy TextBroker module that was used to test the ability of the ServiceBroker to look up service code "TB" in Service.txt, 
+get the appropriate file path "java -jar TextBroker.jar", spin up that process giving it a parameter list in args[0]. TextBroker would 
+simply print out args[0]. ServiceBroker would receive this as an input stream and print it to return it to whoever called ServiceBroker.
+
+If args[0] is passed to the TextBroker stub and the string in args[0] is sent back to ServiceBroker and printed out, the unit test was successful. 
